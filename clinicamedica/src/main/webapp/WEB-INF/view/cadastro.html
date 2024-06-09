@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Aluno</title>
+</head>
+<body>
+
+	<h1>Cadastrar clínica</h1>
+
+	<form action="chamadaservlet" method="post">
+		Nome: <input type="text" name="txtnome" autocomplete="off"><br>
+		<br>
+		<h2>Número de pacientes atendidos por dia:</h2>
+		Seg: <input type="text" name="txtpri" autocomplete="off"><br>
+		<br> Ter: <input type="text" name="txtseg" autocomplete="off"><br>
+		<br> Qua: <input type="text" name="txtter" autocomplete="off"><br>
+		<br> Qui: <input type="text" name="txtqua" autocomplete="off"><br>
+		<br> Sex: <input type="text" name="txtsex" autocomplete="off"><br>
+		<br> <input type="hidden" name="acao" value="cadastro">
+		 <input type="submit" value="Cadastrar clínica">
+	</form>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	    <h1>Marcar Consulta</h1>
+    <form action="chamadaservlet" method="post">
+        <input type="hidden" name="acao" value="marcarconsulta">
+        <label for="nomePaciente">Nome do Paciente:</label>
+        <input type="text" id="nomePaciente" name="nomePaciente" required><br><br>
+        <label for="dataConsulta">Data da Consulta:</label>
+        <input type="date" id="dataConsulta" name="dataConsulta" required><br><br>
+        <label for="horarioConsulta">Horário da Consulta:</label>
+        <input type="time" id="horarioConsulta" name="horarioConsulta" required><br><br>
+        <label for="sintomas">Sintomas:</label>
+        <textarea id="sintomas" name="sintomas"></textarea>
+        <label for="gravidade">Gravidade (1-3):</label>
+        <select id="gravidade" name="gravidade">
+            <option value="1">1 - Leve</option>
+            <option value="2">2 - Moderada</option>
+            <option value="3">3 - Grave</option>
+        </select>
+        
+        <input type="submit" value="Marcar Consulta">
+    </form>
+    <br><br>
+
+	
+
+</body>
+</html>
+
+
+
+
+
+
