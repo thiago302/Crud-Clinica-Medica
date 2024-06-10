@@ -30,10 +30,10 @@ Este projeto é um sistema completo de gerenciamento de uma clínica médica, de
 ### Instruções
 
 1. **Clone o repositório**: Copie o repositório do GitHub para sua máquina local.
-2. **Configure o banco de dados**: Crie um banco de dados no MySQL e execute o script SQL fornecido no projeto para criar as tabelas necessárias.
-3. **Configure o arquivo de propriedades do banco de dados**: Edite o arquivo `database.properties` com as informações do seu banco de dados MySQL.
-4. **Compile o projeto**: Use Maven para compilar o projeto.
-5. **Desploy no Tomcat**: Copie o arquivo WAR gerado para o diretório `webapps` do Tomcat e inicie o servidor.
+2. **Configure o banco de dados**: Crie um banco de dados no MySQL e copie e cole o codigo presente no arquivo banco de dados.sql.
+3. **Configure o arquivo Conexão**: Altera o usuário e senha de acordo com o seu.
 
-Preencha as seções "Integrantes" e "Contato" com as informações apropriadas antes de usar o README.md no seu repositório.
+5. **Desploy no Tomcat**: Extraia o arquivo zip gerado para o diretório `Servers` e inicie o servidor.
+
+
 
